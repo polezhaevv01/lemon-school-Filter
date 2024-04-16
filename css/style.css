@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 244, 230);
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+
+input#nameFilter {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #8b796a;
+}
+
+fieldset {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #8b796a;
+}
+
+input[type="radio"] {
+    margin-bottom: 8px;
+    border-radius: 12px;
+    border: 1px solid #8b796a;
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
+
+}
+
+.sort-container {
+    display: flex;
+    border: 1px solid #8b796a;
+    border-radius: 12px;
+    padding: 12px;
+    max-width: 1350px;
+    margin: 24px auto 36px;
+   
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 12px;
+}
+
+.users-container {
+    padding: 36px;
+    border: 1px solid #8b796a;
+    border-radius: 22px;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    min-height: 609px;
+}
+
+.user {
+    width: 300px;
+    border: 2px solid #8b796a;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.user-photo {
+    margin-bottom: 12px;
+}
+
+.user-name {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.user-age {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
